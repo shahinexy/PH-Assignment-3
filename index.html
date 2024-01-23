@@ -33,7 +33,6 @@
     <style>
         body {
             font-family: "Manrope", sans-serif;
-            background-image: ;
         }
     </style>
 </head>
@@ -511,49 +510,104 @@
                 </div>
                 <div class="col-span-3">
                     <form class="grid grid-cols-1 md:grid-cols-2  gap-6">
-                        <div class="input-area">
+                        <div class="input-area md:col-span-1 col-span-2">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">What is your name?</span>
                             </div>
-                            <input type="text" placeholder="Enter your full name"
-                                class="input  w-full max-w-xs bg-gray-100" />
+                            <input type="text" placeholder="Enter your full name" class="input  w-full  bg-gray-100" />
                         </div>
-                        <div class="input-area">
+                        <div class="input-area md:col-span-1 col-span-2">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Yur Email</span>
                             </div>
-                            <input type="text" placeholder="Enter your email"
-                                class="input  w-full max-w-xs bg-gray-100" />
+                            <input type="text" placeholder="Enter your email" class="input  w-full  bg-gray-100" />
                         </div>
-                        <div class="input-area">
+                        <div class="input-area md:col-span-1 col-span-2">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Sbuject</span>
                             </div>
-                            <input type="text" placeholder="Enter your Sbuject"
-                                class="input  w-full max-w-xs bg-gray-100" />
+                            <input type="text" placeholder="Enter your Sbuject" class="input  w-full  bg-gray-100" />
                         </div>
-                        <div class="input-area">
+                        <div class="input-area md:col-span-1 col-span-2">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Phone Number</span>
                             </div>
                             <input type="text" placeholder="Enter your Phone Number"
-                                class="input  w-full max-w-xs bg-gray-100" />
+                                class="input  w-full  bg-gray-100" />
                         </div>
                         <div class="input-area col-span-2">
                             <div class="label">
                                 <span class="label-text text-xl font-bold">Message</span>
                             </div>
-                            <textarea placeholder="Write your message" rows="7" class="textarea textarea-lg w-full bg-gray-100 " ></textarea>
-                            <button class="btn bg-primary w-full text-white text-xl font-bold mt-12">Send Message</button>
+                            <textarea placeholder="Write your message" rows="7"
+                                class="textarea textarea-lg w-full bg-gray-100 "></textarea>
+                            <button class="btn bg-primary w-full text-white hover:text-black text-xl font-bold lg:mt-12 md:mt-8 mt-6">Send
+                                Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
+        <!-- socail media section  -->
+        <section class="md:mb-24 mb-8 bg-gray-200 py-9 rounded-2xl">
+            <h2 class="text-2xl text-center font-extrabold">Social Media</h2>
+            <div class="flex justify-center gap-6 mt-6">
+                <i class="fa-brands fa-twitter text-2xl"></i>
+                <i class="fa-brands fa-facebook text-2xl"></i>
+                <i class="fa-brands fa-instagram text-2xl"></i>
+                <i class="fa-brands fa-github text-2xl"></i>
+            </div>
+        </section>
     </main>
     <!-- footer  -->
-    <footer>
+    <footer class="bg-[#131318]">
+        <div class="container max-w-[1180px] mx-auto px-3 text-white md:py-24 py-10 flex flex-col md:flex-row text-center md:text-start md:justify-between justify-center lg:gap-36 gap-6">
+            <div class="space-y-6 md:w-2/5 text-gray-400">
+                <h2 class="text-3xl font-extrabold">Get In Touch</h2>
+                <p>Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                    proin. </p>
+                <p>    <i class="fa-regular fa-envelope text-primary mr-3 text-2xl"></i> example@gmiail.com</p>
+                <p>    <i class="fa-solid fa-phone text-primary mr-3 text-2xl"></i> (+880) 199-022-090</p>
+                
+            </div>
+            <div class=" flex md:w-2/5  lg:gap-36 gap-6">
+                <div class="company space-y-6 flex-1">
+                    <h3 class="text-lg font-bold">Company</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href=""></a>About us </li>
+                        <li><a href=""></a>Leadership</li>
+                        <li><a href=""></a>Careers</li>
+                        <li><a href=""></a>News & Article</li>
+                        <li><a href=""></a>Ligal Notic</li>
 
+                    </ul>
+                </div>
+                <div class="company space-y-6 flex-1">
+                    <h3 class="text-lg font-bold">Support</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href=""></a>Help Center</li>
+                        <li><a href=""></a>FAQ</li>
+                        <li><a href=""></a>Ticket Support</li>
+                        <li><a href=""></a>Contact us</li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="md:w-1/5">
+                <div class="company space-y-6 ">
+                    <h3 class="text-lg font-bold">Service</h3>
+                    <ul class="space-y-4 text-gray-400">
+                        <li><a href=""></a>About us </li>
+                        <li><a href=""></a>Leadership</li>
+                        <li><a href=""></a>Careers</li>
+                        <li><a href=""></a>News & Article</li>
+                        <li><a href=""></a>Ligal Notic</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
